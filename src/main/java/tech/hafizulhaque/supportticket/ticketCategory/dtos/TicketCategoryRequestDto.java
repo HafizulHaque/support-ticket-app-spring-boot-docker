@@ -8,7 +8,7 @@ import tech.hafizulhaque.supportticket.models.TicketCategoryEntity;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class CreateTicketCategoryDto {
+public class TicketCategoryRequestDto {
 
     private String title;
     private String description;
